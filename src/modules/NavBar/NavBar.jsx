@@ -1,8 +1,9 @@
 import React from 'react';
+import {Link} from 'react-router';
 
 const NavBar = (props) => {
     return (
-        <div>
+        <nav>
             Its navbar!-
             <button
              className="get-btn"
@@ -16,7 +17,7 @@ const NavBar = (props) => {
              >
                 New stories
             </button >
-        </div>
+        </nav>
     );
 }
 
